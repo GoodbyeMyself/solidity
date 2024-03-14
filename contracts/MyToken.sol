@@ -19,6 +19,8 @@ contract MyToken is ERC721, Ownable {
     //     _safeMint(to, tokenId);
     // }
 
+    // test remote
+
     function mint(uint256 quantity) public payable {
 
         require(quantity == 1, "quantity must be 1");
